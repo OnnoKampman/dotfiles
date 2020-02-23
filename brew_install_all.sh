@@ -1,4 +1,4 @@
-# running this for the first time will also install xcode command line interface tools
+# Install Homebrew. Running this for the first time will also install xcode command line interface tools
 brew --version || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # update Homebrew itself
@@ -17,6 +17,7 @@ brew cask install mendeley-desktop
 brew cask install meshlab
 # brew cask install postman
 brew cask install pycharm-ce
+brew cask install skim
 brew cask install skype
 brew cask install spectacle
 brew cask install spotify
